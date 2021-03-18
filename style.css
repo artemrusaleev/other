@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'heading';
+  src: url('https://zotman.qbst.ru/fonts/heading-pro-medium-bold-trial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ideal';
+  src: url('https://zotman.qbst.ru/fonts/interfont_-_ideal-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: #eee !important;
+}
+
+body, .basic-font *{
+  font-family: 'ideal', "Raleway", sans-serif ;
+
+}
+.basic-font h1, .basic-font h2, .basic-font h3, .basic-font h4 {
+  font-family: 'heading', "Raleway", sans-serif !important;
+}
+
+.header-type-1 .page-header{
+  border-radius: 0 !important;
+}
+.header-type-1 .page-header .info-block{
+  width: 100%;
+  top: 0;
+  height: 100%;
+  background-size: cover;
+  border-radius: 0 !important;
+}
+
+
+.wrapper-info-block{
+  display: none;
+}
+
+body .page-header .header-image{
+  background-color: white !important;
+}
+
+.header-type-1 .page-header .logo .image{
+  top: 6px;
+  width: 232px;
+  height: 105px;
+  left: 26px;
+  transform: initial;
+  display: none;
+}
+.header-type-1 .page-header .logo{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 281px;
+  width: 100%;
+  display: none;
+}
+
+.header-type-1 .page-header .logo:before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(157.83deg, rgba(0, 0, 0, 0) 52.32%, rgba(0, 0, 0, 0.5) 100%);
+  transform: rotate(180deg);
+}
+
+
+
+body .page-content{
+  background-color: white !important;
+  margin-bottom: 88px;
+}
+@media all and (max-width: 666px)
+{
+  body .page-content{
+      margin-bottom: 53px;
+  }
+}
+.page-content .restaurant-menu .dishes .dish{
+  height: 100%;
+}
+.dish-img .dishes .category ul li{
+  margin-bottom: 25px;
+}
+
+.dish-img .dishes .dish .img{
+  margin-bottom: 0;
+}
+
+.dish-img .dishes .dish .name-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dish-img .dishes .dish .name{
+  font-family: 'heading', "Raleway", sans-serif !important;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+  padding: 3px 0 0 0;
+  min-height: initial;
+}
+
+@media all and (max-width: 666px)
+{
+  .dish-img .dishes .dish .name{
+      font-size: 21px;
+      padding-top: 30px;
+  }
+}
+
+
+.dish-img .dishes .dish .text-description{
+  white-space: pre-wrap;
+}
+/*@media screen and (max-width: 560px){*/
+/*    .dish-img .dishes .dish .text-description{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+.dish-img .dishes .dish .price{
+  position: absolute;
+  top: 9px;
+  right: 3px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  width: initial;
+  left: initial;
+}
+
+@media screen and (max-width: 560px){
+  .dish-img .dishes .dish .price{
+      font-size: 20px;
+      top: 13px;
+      right: 5px;
+  }
+
+}
+
+.dish-img .dishes .dish .button-block{
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  width: initial;
+  display: inline-block;
+  height: initial;
+  margin-top: 10px;
+}
+body .page-content .restaurant-menu .dishes .dish button{
+  background: #2BCA65;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 13px;
+  border-radius: 20px;
+  line-height: 37px;
+}
+.dish-img .dishes .dish{
+  box-shadow: rgba(1,2,1,0.16) 0 0 8px 1px;
+}
+
+
+#smartomato-application .modal-overlay .modal-dialog{
+  background: #eeeeee;
+  color: black;
+}
+
+#smartomato-application .modal-overlay .order-info-modal section .sm-comment{
+  color: red;
+}
+#smartomato-application .modal-overlay .order-info-modal section.sm-payment-section .sm-payment-notice{
+  color: black !important;
+}
+#smartomato-application .modal-overlay .modal-dialog.order-modal .my-order .sm-basket-empty-message, #smartomato-application .modal-overlay .modal-dialog.receipt-modal .my-order .sm-basket-empty-message{
+  color: black !important;
+}
+#smartomato-application .modal-overlay .order-info-modal label{
+  color: black !important;
+}
+#smartomato-application .sm-tile-selector .sm-tile-option .sm-tile-subtitle{
+  color: black !important;
+  font-family: 'ideal', "Raleway", sans-serif !important;;
+}
+
+#smartomato-application .modal-overlay .modal-dialog.configurator-modal .description{
+  color: black;
+}
+
+.sm-delivery-type .sm-tile-selector div:last-child .sm-tile-title{
+  font-size: 17px !important;
+}
+
+
+.dish-img .dishes .category .category-name{
+  text-transform: uppercase;
+}
+
+.dish-img .dishes .category ul li:empty{
+  margin: 0;
+}
+
+.dish-img .dishes .category:last-child {
+  margin: 0;
+}
+
+.page-content .restaurant-menu .categories ul{
+  display: flex;
+  justify-content: center;
+}
+.page-content .restaurant-menu .categories ul li{
+  padding: 0 15px;
+}
+
+.page-content .restaurant-menu .categories ul li span{
+  border: 0;
+  transition: color 300ms ease;
+}
+
+.page-content .restaurant-menu .categories ul li:hover span{
+  color: #FF938C !important;
+}
+
+
+.dish-img .dishes .dish .separator, .dish-img .dishes .dish .weight{
+  display: none;
+}
+
+.custom_price{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+  background: url(https://zotman.qbst.ru/media/price.svg) no-repeat 50% 0 / cover;
+}
+
+.page-content .restaurant-menu .dishes a.work_on, .page-content .restaurant-menu .dishes a.work_on span{
+  font-size: 1px;
+  display: none;
+}
+#smartomato-application .sm-bottom-panel-wrapper, #smartomato-application .modal-overlay{
+  font-family: 'ideal', "Raleway", sans-serif;
+}
+#smartomato-application .modal-overlay .modal-left-panel.order-summary .modal-navigation .nav-item a.sm-header{
+  font-family: 'ideal', "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+#smartomato-application .modal-overlay .modal-left-panel.order-summary .total-cost .basket-cost{
+  text-decoration: none;
+  color: #2BCA65;
+}
+
+#smartomato-application .modal-overlay .modal-left-panel.order-summary .comment.error, #smartomato-application .modal-overlay .modal-left-panel.sm-configurator .sm-summary-comment.error, #smartomato-application .modal-overlay .order-info-modal section .sm-comment{
+  color: #FF938C;
+  border-color: #FF938C;
+}
+
+#smartomato-application .sm-panel-block.sm-order-status.sm-error{
+  background: #FF938C;
+}
+
+#smartomato-application .modal-overlay .modal-dialog h3, #smartomato-application .modal-overlay .order-info-modal section.summary .total label, #smartomato-application .sm-tile-selector .sm-tile-option .sm-tile-title{
+  font-family: 'heading', "Raleway", sans-serif;
+}
+
+#smartomato-application .modal-overlay .modal-dialog{
+  border-radius: 30px;
+}
+@media all and (max-width: 666px)
+{
+  #smartomato-application .modal-overlay .modal-dialog{
+      border-radius: 15px;
+  }
+}
+#smartomato-application .modal-overlay .order-info-modal section.hairline{
+  border: none;
+}
+
+#smartomato-application .sm-textfield.large, #smartomato-application .sm-button, #smartomato-application .modal-overlay .order-info-modal section.address .main-address-info .city .sm-textfield, #smartomato-application .sm-textarea, #smartomato-application .sm-text-field-list{
+  border-radius: 17px;
+}
+
+#smartomato-application .sm-button.success{
+  background: #2BCA65;
+}
+
+#smartomato-application .modal-overlay .order-info-modal section.address .sm-select.addressHistory .sm-selected-value{
+  color: #2BCA65;
+  text-decoration: none;
+}
+
+#smartomato-application .modal-overlay .modal-dialog.configurator-modal .configuration-list .configuration .option-list .sm-option input[type=checkbox]:checked+.sm-label img, #smartomato-application .modal-overlay .modal-dialog.configurator-modal .configuration-list .configuration .option-list .sm-option.has-picture .sm-label.has-amount img, #smartomato-application .sm-checkbox-group.sm-radio input[type=checkbox]:checked+.sm-label:before, #smartomato-application .sm-comment.info{
+  border-color: #2BCA65;
+}
+#smartomato-application .sm-checkbox-group.sm-radio .sm-label:after{
+  background: #2BCA65;
+}
+
+#smartomato-application .sm-tile-selector .sm-tile-option:not(.-sm-selected), #smartomato-application .sm-tile-selector .sm-tile-option:not(.-sm-selected) .sm-tile-subtitle, #smartomato-application .sm-tile-selector .sm-tile-option:not(.-sm-selected) .sm-tile-title{
+  color: #b7b7b7 !important;
+}
+
+#smartomato-application .sm-tile-selector .sm-tile-option{
+  border-radius: 17px;
+  border-width: 2px;
+}
+#smartomato-application .sm-tile-selector .sm-tile-option.-sm-selected{
+  border: 1px solid #2BCA65;
+  background: #2BCA65;
+}
+
+#smartomato-application .sm-panel-block.sm-basket .sm-badge{
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  background: #FF938C;
+}
+
+#smartomato-application .promo-card .ember-text-field.sm-textfield{
+  border: none;
+}
+
+#smartomato-application .modal-overlay .modal-left-panel.order-summary .total-cost .delivery-cost{
+  font-family: 'ideal', "Raleway", sans-serif;
+}
+
+#smartomato-application .sm-comment.error, #smartomato-application .sm-comment.warning, #smartomato-application .promo-card .promo-error{
+  color: #FF938C;
+  border-color: #FF938C;
+}
+#smartomato-application .sm-comment.info{
+  color: #2BCA65 !important;
+  border-color: #2BCA65 !important;
+}
+
+#smartomato-application .sm-comment{
+  color: #FF938C;
+}
+
+#smartomato-application .modal-overlay .modal-left-panel h3{
+  font-family: 'ideal', "Raleway", sans-serif !important;
+}
+#smartomato-application .modal-overlay .modal-left-panel.receipt .delivery-at h3 span{
+  font-family: 'heading', "Raleway", sans-serif;
+}
+#smartomato-application .modal-overlay .order-info-modal section.finish .sm-info-block p{
+  color: white;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0)
+{
+  #smartomato-application .modal-overlay .modal-dialog.order-modal, #smartomato-application .modal-overlay .modal-dialog.receipt-modal{
+      margin-top: 60px;
+  }
+}
+
+#settings.title-show .page-header .name h1 {
+  display: none !important;
+}
+.header-type-1 .page-header .info-block .wrapper-info-block .about-text {
+  display: none !important;
+}
